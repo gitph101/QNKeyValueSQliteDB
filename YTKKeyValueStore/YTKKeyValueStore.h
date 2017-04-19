@@ -47,7 +47,7 @@
 
 - (void)putNumber:(NSNumber *)number withId:(NSString *)numberId intoTable:(NSString *)tableName;
 
-- (unsigned long long int *)getNumberById:(NSString *)numberId fromTable:(NSString *)tableName;
+- (NSNumber *)getNumberById:(NSString *)numberId fromTable:(NSString *)tableName;
 
 - (NSArray *)getAllItemsFromTable:(NSString *)tableName;
 
