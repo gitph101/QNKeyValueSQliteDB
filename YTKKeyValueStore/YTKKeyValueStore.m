@@ -293,13 +293,13 @@ static NSString *const DROP_TABLE_SQL = @" DROP TABLE '%@' ";
     return result;
 }
 
-- (NSUInteger)getCountFromTable:(NSString *)tableName
+- (unsigned long long int)getCountFromTable:(NSString *)tableName
 {
     if ([YTKKeyValueStore checkTableName:tableName] == NO) {
         return 0;
     }
     NSString * sql = [NSString stringWithFormat:COUNT_ALL_SQL, tableName];
-    __block NSInteger num = 0;
+    __block unsigned long long int num = 0;
     [_dbQueue inDatabase:^(FMDatabase *db) {
         FMResultSet * rs = [db executeQuery:sql];
         if ([rs next]) {
