@@ -61,7 +61,6 @@
 		4597AE9A19DEE0D90028ECAC /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
 		4597AE9B19DEE0D90028ECAC /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
 		4597AEA119DEE0EC0028ECAC /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
-		E2E74D181EA74D980071144C /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,7 +115,6 @@
 				4597AE6419DEDFB30028ECAC /* Images.xcassets */,
 				4597AE6619DEDFB30028ECAC /* LaunchScreen.xib */,
 				4597AE5719DEDFB30028ECAC /* Supporting Files */,
-				E2E74D181EA74D980071144C /* Header.h */,
 			);
 			path = YTKKeyValueStore;
 			sourceTree = "<group>";
