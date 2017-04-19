@@ -164,8 +164,13 @@ static NSString *const DROP_TABLE_SQL = @" DROP TABLE '%@' ";
     if ([YTKKeyValueStore checkTableName:tableName] == NO) {
         return;
     }
+    NSData * data;
     NSError * error;
-    NSData * data = [NSJSONSerialization dataWithJSONObject:object options:0 error:&error];
+    if ([object isKindOfClass:[NSData class]]) {
+        data = object;
+    }else {
+        data = [NSJSONSerialization dataWithJSONObject:object options:0 error:&error];
+    }
     if (error) {
         debugLog(@"ERROR, faild to get json data");
         return;
