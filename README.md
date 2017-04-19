@@ -1,7 +1,7 @@
 QNKeyValueSQliteDB
 ==========
 
-forked from yuantiku/YTKKeyValueStore(https://github.com/yuantiku/YTKKeyValueStore)
+forked from [yuantiku/YTKKeyValueStore](https://github.com/yuantiku/YTKKeyValueStore)
 
 
 
